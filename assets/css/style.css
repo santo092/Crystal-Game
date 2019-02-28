@@ -1,0 +1,53 @@
+
+.container{
+    align-content: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    
+    margin: 10px 10px 10px 10px;
+    width:80px; 
+    height: 80px;
+  
+    }
+.img-fluid{
+    height:700px;
+    width:900px;
+}
+
+.moo{
+    height: 1000px;
+}
+
+
+#head{
+background-color: white;
+
+
+}
+#headR{
+    background-color: white;
+    height: 239px;
+    
+    }
+#headB{     
+    background-color: white;
+    height:265px;
+        
+    }
+    
+
+
+
+
+
+
+#crystals{
+    margin-left: 23px;
+    align-content: center;
+    
+}
+
+

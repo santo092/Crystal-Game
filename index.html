@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron jumbotron-fluid " id="head">
+                    <div class="container text-center">
+                        <h1 class="display-4 text-center">Crystals Collector!</h1>
+                        <hr>
+                        <p>You will be given a random number at the start of the game.</p>
+
+                        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of
+                            points to your
+                            total
+                            score.</p>
+
+                        <p>You win the game by matching your total score to random number, you lose the game if your
+                            total score
+                            goes
+                            above the random number.</p>
+
+                        <p>The value of each crystal is hidden from you until you click on it.</p>
+
+                        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6">
+                <img src="assets/images/genie.jpg" class="img-fluid" alt="Responsive image">
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container moo">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron jumbotron-fluid border border-dark" id="head">
+                    <div class="container">
+                        <h3 class="text-center">Target Score:</h3>
+                        <h1 class="text-center" id="random-number"></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="jumbotron jumbotron-fluid border border-dark" id="headR">
+                    <div class="container ">
+
+
+                        <div class="row" class="text-center" id="crystals">
+
+
+                            <button id="rocks"><img src="assets/images/blue crystal.jpeg"></button>
+                            <button id="rocks1"><img src="assets/images/ruby.jpeg"></button>
+                            <button id="rocks2"><img src="assets/images/color crystal.jpeg"></button>
+                            <button id="rocks3"><img src="assets/images/goldish crystal.jpg"></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="jumbotron jumbotron-fluid border border-dark" id="head">
+                            <div class="container">
+                                <h3 class="text-center">Total score:</h3>
+                                <br>
+                                <h1 class="text-center" id="score-total"></h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="jumbotron jumbotron-fluid border border-dark " id="headB">
+
+                            <div class="container">
+
+                                <h5 class="text-center"> Wins : </h5>
+                                <h5 class="text-center" id="wins"></h5>
+
+                                <h5 class="text-center">Losses : </h5>
+                                <h5 class="text-center" id="losses"></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+            <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
