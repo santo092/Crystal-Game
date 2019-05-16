@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal game
 
 The project is a crystal game that has 4 crystals available to be clicked which the sum of all needs to target the number given. Instructions are given before scrolling down to play the game.
 
